@@ -1,13 +1,13 @@
-# GIKAFE Cafeteria — Operations Management Project
+# GIKAFE Cafeteria: Operations Management Project
 
 **Course:** MS-492 Operations Management · **Term:** Spring 2026
 **Institute:** GIK Institute of Engineering Sciences & Technology, Topi
 **Instructor:** Dr. Muhammad Suhaib
-**Textbook:** Heizer & Render — *Operations Management*, 12e
+**Textbook:** Heizer & Render: *Operations Management*, 12e
 
 An integrated operations study of the GIKAFE main counter during the 12:00–14:00
-peak lunch window. We applied three classical OM tools — **forecasting,
-inventory control, and queueing analysis** — to diagnose long queues, occasional
+peak lunch window. We applied three classical OM tools: **forecasting,
+inventory control, and queueing analysis**, to diagnose long queues, occasional
 stockouts, and the absence of any formal ordering policy.
 
 ---
@@ -44,10 +44,10 @@ GIKAFE serves roughly **500 students** during a two-hour lunch window through a
 
 ## 4. Key Results
 
-**Forecasting** — Weighted Moving Average (WMA) gave the lowest mean MAPE
+**Forecasting:** Weighted Moving Average (WMA) gave the lowest mean MAPE
 (~1.5% across the top 5 items) and was adopted as the daily ordering signal.
 
-**Inventory** — EOQ and ROP for the Class-A items (lead time L = 1 day,
+**Inventory:** EOQ and ROP for the Class-A items (lead time L = 1 day,
 holding cost H = 15% of unit price, safety stock SS = 0.5 × mean daily demand,
 313 working days/yr):
 
@@ -60,8 +60,8 @@ holding cost H = 15% of unit price, safety stock SS = 0.5 × mean daily demand,
 | Chicken Burger | 5,321 | 206 | 26 | 25.8 |
 | Tea / Chai | 15,859 | 531 | 76 | 29.9 |
 
-**Queueing (M/M/1)** — λ = 4.06 cust/min at the full peak, μ = 1.03 cust/min,
-giving **ρ = 3.92** — well above 1. A single server is mathematically
+**Queueing (M/M/1):** λ = 4.06 cust/min at the full peak, μ = 1.03 cust/min,
+giving **ρ = 3.92**: well above 1. A single server is mathematically
 incapable of clearing the peak arrival rate, which explains the observed
 6–8 person queues.
 
@@ -69,11 +69,11 @@ incapable of clearing the peak arrival rate, which explains the observed
 
 To restore ρ < 1 and stabilise the system:
 
-1. **Increase μ** — add a second server or a dedicated Tea/Naan batch station;
+1. **Increase μ:** add a second server or a dedicated Tea/Naan batch station;
    pre-pack Class-A items during 12:00–14:00.
-2. **Decrease λ** — stagger class-break timings, or push QR-menu pre-orders to
+2. **Decrease λ:** stagger class-break timings, or push QR-menu pre-orders to
    spread arrivals across a wider window.
-3. **Pilot at off-peak** — validate the changes during 11:30 or 13:30 windows
+3. **Pilot at off-peak:** validate the changes during 11:30 or 13:30 windows
    before scaling to full peak.
 
 Pair these with **WMA-driven daily ordering** and **ROP-triggered replenishment
@@ -86,8 +86,8 @@ on Class-A items** for a complete operating policy.
 | `OM_Project_Report.pdf` | Full written report submitted for evaluation |
 | `GIKAFE_OM_Project_Final.pptx` | 11-slide presentation deck |
 | `Appendix_GIKAFE_Final.xlsx` | Raw observations, forecast workings, EOQ / ROP calculations, queueing model |
-| `Inventory_Management_Viva_Guide.pdf` | Quick-revision viva guide — concepts, formulas, Q&A |
-| `Capacity_Analysis_Viva_Guide.pdf` | Quick-revision viva guide — concepts, formulas, Q&A |
+| `Inventory_Management_Viva_Guide.pdf` | Quick-revision viva guide: concepts, formulas, Q&A |
+| `Capacity_Analysis_Viva_Guide.pdf` | Quick-revision viva guide: concepts, formulas, Q&A |
 | `generate_viva_guides.py` | Python (reportlab) script that builds the two viva PDFs |
 
 ### Regenerating the viva guides
@@ -99,5 +99,9 @@ python generate_viva_guides.py
 
 ## 7. Authors
 
-- **Ahmed Musharaf** — Reg# 2022067
-- **Umar Mushtaq Mughal** — Reg# 2022602
+- **Ahmed Musharaf**: Reg# 2022067
+- **Umar Mushtaq Mughal**: Reg# 2022602
+
+---
+
+> _Good luck with the viva!_ 🙂
