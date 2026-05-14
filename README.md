@@ -83,7 +83,7 @@ on Class-A items** for a complete operating policy.
 
 | File | Description |
 |---|---|
-| `OM_Project_Report.pdf` | Full written report submitted for evaluation |
+| `OM_Project_Report.pdf` | Full written report submitted for evaluation (a hardcopy was also submitted to Sir) |
 | `GIKAFE_OM_Project_Final.pptx` | 11-slide presentation deck |
 | `Appendix_GIKAFE_Final.xlsx` | Raw observations, forecast workings, EOQ / ROP calculations, queueing model |
 | `Inventory_Management_Viva_Guide.pdf` | Quick-revision viva guide: concepts, formulas, Q&A |
